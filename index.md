@@ -1,25 +1,28 @@
-## Welcome to GitHub Pages
+# Api Challenge
 
-You can use the [editor on GitHub](https://github.com/efennie/python-api-challenge/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Project Goals:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Part 1: WeatherPy
+  - Using OpenAPIWeatherMap, randomly select 500 cities and pull the data into a dataframe.
+  - Graph the following:
+  
+   1. Temperature (F) vs. Latitude
+   2. Humidity (%) vs. Latitude
+   3. Cloudiness (%) vs. Latitude
+   4. Wind Speed (mph) vs. Latitude
 
-### Markdown
+- Then separate those graphs by hemisphere to analyze trends.
+- 
+### Part 2: VacationPy
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Next, filter the results of part one to find the perfect weather destinations. 
+- Note, perfect weather specifications are as follows:
+  1. A max temperature lower than 80 degrees but higher than 70.
+  2. Wind speed less than 10 mph.
+  3. Zero cloudiness.
 
-```markdown
-Syntax highlighted code block
+- Using Google Places APIs and the coordinates of 
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
 
 **Bold** and _Italic_ and `Code` text
 
